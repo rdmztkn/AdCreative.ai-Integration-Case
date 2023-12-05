@@ -1,0 +1,8 @@
+I've added 'DisributedItemIntegrationService' to demonstrate how to handle the 
+integration of the distributed service calls. Thus, in program.cs, you can switch between your implementation 
+and the distributed one. 
+
+As this was a Console app, I didn't use any DI framework, but I would have used if I thought it was necessary.
+
+I also assume that the life time of 'DisributedItemIntegrationService' is Singleton so I created the Redis
+connection in the constructor.
